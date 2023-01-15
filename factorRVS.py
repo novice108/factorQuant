@@ -140,7 +140,7 @@ def factor(P):
     from dwave.system import DWaveSampler
     sampler = DWaveSampler()
     
-    num_reads = 1000 #Number of runs on QC
+    num_reads = 10000 #Number of runs on QC
     chainstrength = 10 # update
     
     #annealing_time=1000 #var1 - annealing time - Block
